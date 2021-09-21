@@ -1,4 +1,6 @@
 @import url(bootstrap.min.css);
-@import '_global.scss';
-@import '_custom.scss';
-@import '_responsive.scss';
+@import 'global';
+@import 'custom';
+@import 'responsive';
+
+@import url(_custom.scss);
