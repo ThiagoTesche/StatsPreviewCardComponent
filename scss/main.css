@@ -122,6 +122,25 @@ body {
   opacity: 0.5;
 }
 
+header {
+  padding: 0;
+  background-color: var(--Soft-violet);
+}
+
+header .attribution {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+header .attribution p {
+  color: whitesmoke;
+}
+
+header .attribution p a {
+  color: whitesmoke;
+}
+
 @media screen and (max-width: 992px) {
   .container .left .text {
     padding: 30px;
